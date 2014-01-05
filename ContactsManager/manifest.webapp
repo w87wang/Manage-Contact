@@ -1,0 +1,24 @@
+{
+	"name":"Contacts Manager",
+	"description":"Simple contact manager.",
+	"launch_path": "/contactsmanager.html",
+	"version":"1.0",
+	"type":"privileged",
+	"developer": {
+    "name": "Aaron Wang",
+    "url": ""
+	},
+	"icons":
+	{
+	 "60": "/images/icon_60.png",
+	 "128": "/images/icon_128.png"
+	},
+    "installs_allowed_from": ["*"],
+	"default_locale": "en",
+	"permissions": {
+		"contacts": {
+			"description": "Required for saving and loading contacts",
+			"access": "readcreate"
+		}
+	}
+}
